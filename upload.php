@@ -1,0 +1,13 @@
+<?php
+$list=array(
+"/FCKeditor/editor/filemanager/browser/default/browser.html?Type=File&Connector=connectors/php/connector.php",
+"/admin/FCKeditor/editor/filemanager/browser/default/browser.html?Type=File&Connector=connectors/php/connector.php",
+"/kcfinder/browse.php",
+"/admin/kcfinder/browse.php",
+"/Kindeditor/examples/uploadbutton.html",
+"/admin/Kindeditor/examples/uploadbutton.html",
+"/sitefinity/UserControls/Dialogs/DocumentEditorDialog.aspx",
+"/admin/sitefinity/UserControls/Dialogs/DocumentEditorDialog.aspx",
+"/filemanager/dialog.php",
+"/admin/filemanager/dialog.php"
+);
