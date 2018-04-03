@@ -35,14 +35,14 @@ if(isset($argv[1]) && isset($argv[2])) {
 		$argv[1]=str_replace("https://","http://",$argv[1]);
 	}
 if($argv[2] == "--upload" OR $argv[2] == "-u") {
-include("upload.php");
+include("upload");
 } elseif($argv[2] == "--admin" OR $argv[2] == "-a") {
-include("admin.php");
+include("admin");
 } else {
 	die($Y."[!] Parameter False [!]\n");
 }
 $count=count($list);
-echo "String Loaded : ".$Y.$count."\n";
+echo "String Loaded : ".$Y.$count.$G."\n";
 	foreach($list as $list) {
 		$url=$argv[1].$list;
 sleep(1);
